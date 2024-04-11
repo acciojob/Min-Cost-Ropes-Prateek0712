@@ -8,6 +8,7 @@ arr.sort((a, b) => b - a);
 while(arr.length>0)
 	{
 		let temp=[];
+		arr.sort((a, b) => b - a);
 		while(arr.length>0)
 			{
 				let a= arr.length>0 ? arr.pop() : 0;
